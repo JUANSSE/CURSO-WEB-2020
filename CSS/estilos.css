@@ -2,7 +2,7 @@ body
 {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 20px 400px;
-	background-image:url(../../images/fondoCSS.jpg);
+	background-image:url(../Imagenes/fondoCSS.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
