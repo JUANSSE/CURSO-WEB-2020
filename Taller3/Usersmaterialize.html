@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body style="background-image:url(images/fondoCSS.jpg)">
+        <div class="row">
+            <form class="col s10 offset-s1" >
+                <div class="card-panel " style="background-color: rgba(38,48,63,0.7)">
+                    <div class="col s12 m8 offset-m5 l10 offset-l1">
+                        <div class="card-panel" style="background-color: rgba(48,133,88,0.2)">
+                        <div class="row valign-wrapper">
+                            <div class="col10">
+                                <img src="images/iconmat.png" alt="" class="circle responsive-img" style="height: 150px; width: 160px"> 
+                            </div>
+                            <div class="col s12">
+                                <h1 style="color: #e57373; font-size: 79px">USERS MATERIALIZE</h1>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+      <div class="row">
+        <div class="input-field col s12">
+        <i class="material-icons prefix white-text">assignment_ind</i>
+          <input id="id_usr" type="number" class="validate" data-length="11">
+          <label for="id_usr">ID usuario</label>
+            <span class="helper-text " data-error="Error no sobrepase el limite de caracteres" data-success="Correcto">El ID debe tener maximo 11 caracteres numericos.</span>
+        </div>
+      </div>
+      <div class="row">
+          <div class="input-field col s1">
+          <i class="material-icons prefix grey-text" style="position: relative; float: right">add_location</i>
+            </div>
+          <div class="input-field col s9">
+          
+
+            <select id="id_pais" class="browser-default" >
+                <option value="" disabled selected>Seleccione un Pais</option>
+                <option value="013">ARGENTINA</option>
+                <option value="022">BOLIVIA</option>
+                <option value="031">BRASIL</option>
+                <option value="040">CHILE</option>
+                <option value="059">COLOMBIA</option>
+                <option value="068">CANADA</option>
+                <option value="077">ECUADOR</option>
+                <option value="086">ESTADOS UNIDOS</option>
+                <option value="095">MEXICO</option>
+                <option value="104">PARAGUAY</option>
+                <option value="113">PERU</option>
+                <option value="122">URUGUAY</option>
+                <option value="131">VENEZUELA</option>
+            </select>
+          </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="nombre" type="text" class="validate" data-length="25">
+          <label for="nombre">Nombre</label>
+          <span class="helper-text cyan-text" data-error="Error no sobrepase el limite de caracteres" data-success="Correcto">El Nombre debe tener maximo 25 caracteres.</span>
+        </div>
+        <div class="input-field col s6">
+          <input id="apellido" type="text" class="validate" data-length="25">
+          <label for="apellido">Apellido</label>
+            <span class="helper-text cyan-text" data-error="Error no sobrepase el limite de caracteres" data-success="Correcto">El Apellido debe tener maximo 25 caracteres.</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+        <i class="material-icons prefix white-text">location_city</i>
+          <input id="direccion" type="text" class="validate" data-length="45">
+          <label for="direccion">Direccion</label>
+            <span class="helper-text cyan-text" data-error="Error no sobrepase el limite de caracteres" data-success="Correcto">La dirección debe ser de maximo 45 caracteres.</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+        <i class="material-icons prefix white-text">account_circle</i>
+          <input id="ccusuario" type="text" class="validate" data-length="20">
+          <label for="ccusuario">Usuario</label>
+            <span class="helper-text cyan-text" data-error="Error no sobrepase el limite de caracteres" data-success="Correcto">El Usuario debe tener maximo 20 caracteres.</span>
+        </div>
+        <div class="input-field col s6">
+        <i class="material-icons prefix white-text">vpn_key</i>
+          <input id="ccpaswd" type="password" class="validate" minlength="8" data-length="11">
+          <label for="ccpaswd">Contraseña</label>
+            <span class="helper-text cyan-text" data-error="Error asegurese de que su contraseña este en el rango de 8 a 11 caracteres" data-success="Correcto">La contraseña debe ser de 8-11 caracteres.</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field inline col s12">
+        <i class="material-icons prefix white-text">contact_mail</i>
+            <input id="email_inline" type="email" class="validate" data-length="120">
+            <label for="email_inline">Email</label>
+            <span class="helper-text cyan-text" data-error="Error Asegurese de colocar @ a su direccion de correo" data-success="Correcto">Su Email debe ser de máximo 120 caracteres.</span>
+        </div>
+      </div>
+        <div class="row">
+        <div class="input-field inline col s12">
+        <i class="material-icons prefix white-text">contact_phone</i>
+            <input id="telefono" type="number" class="validate" data-length="20">
+            <label for="telefono">Telefono</label>
+            <span class="helper-text cyan-text" data-error="Error no sobrepase el limite de caracteres" data-success="Correcto">El telefono debe tener maximo 20 caracteres.</span>
+        </div>
+      </div>
+          <button class="btn waves-effect waves-light" type="submit" name="action">Registar<i class="material-icons right">send</i>
+  </button>
+        </div>
+    </form>
+  </div>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    </body>
+  </html>
+
+
+
+
+  
