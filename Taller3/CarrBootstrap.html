@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="../imagenes/Anonimous.png" rel="shortcut icon" sizes="196x196">
+    <!-- Bootstrap CSS -->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <title>Carr CSS-Bootstrap</title>
+  </head>
+
+
+
+  <body style="background-image:url(images/fondoCarr.jpg)">
+    <div class="container font-italic" >
+      <br>
+      <br>
+      <form>
+        <div class="text-warning" "card text-white mb-3" style="max-width: 100rem; background-color: rgba(0, 0, 0 ,0.7)">
+        <div class="card-header">Formulario CSS Bootstrap</div>
+        <div class="card-body">
+            <h1 class="card-title text-uppercase" style="color: #585C4C; text-align: center; font-size: 90px">Carr-Css Bootstrap</h1>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="id_usr">ID</label>
+                    <input type="number" class="form-control p-3 mb-2 shadow-sm border-info alert-info" id="id_usr" placeholder="Ingrese ID Propietario" aria-describedby="passwordHelpBlock" >
+                    <small id="passwordHelpBlock" class="form-text text-muted">
+                        El ID debe tener máximo 11 caracteres numericos.
+                    </small>
+                </div>
+            </div>
+
+
+        
+ <div class="form-row">
+ <div class="form-group col-md-4">
+      <label for="id_pais">País de Origen</label>
+      <select id="id_pais" class="form-control shadow-sm border-info alert-info">
+        <option value="">Seleccione un País</option>
+                <option value="001">VIETNAM</option>
+                <option value="013">PARIS</option>
+                <option value="022">SUIZA</option>
+                <option value="031">CHINA</option>
+                <option value="040">JAPON</option>
+                <option value="059">ALEMANIA</option>
+                <option value="068">CANADA</option>
+                <option value="077">RUSIA</option>
+                <option value="086">ESTADOS UNIDOS</option>
+                <option value="095">COLOMBIA</option>
+                <option value="104">INDIA</option>
+                <option value="113">PERU</option>
+                <option value="135">VENEZUELA</option>
+                <option value="154">AUSTRALIA</option>
+                <option value="200">URUGUAY</option>
+      </select>
+  </div>
+ <div class="form-group col-md-4">
+      <label for="id_movidoa">Combustible Usado</label>
+      <select id="id_movidoa" class="form-control shadow-sm border-info alert-info">
+        <option >Seleccion tipo de Combustible</option>
+        <option value="01">GAS</option>
+                <option value="02">DIESEL</option>
+                <option value="03">GASOLINA</option>
+                <option value="04">ELECTRICIDAD</option>
+      </select>
+  </div>
+  <div class="form-group col-md-4">
+      <label for="id_tipocoche">Vehiculo</label>
+      <select id="id_tipocoche" class="form-control shadow-sm border-info alert-info">
+         <option value="">Seleccione tipo de vehiculo</option>
+                <option value="13">AUTOMOVIL</option>
+                <option value="22">CAMION</option>
+                <option value="31">CAMIONETA</option>
+                <option value="40">BUS</option>
+                <option value="59">BUSETA</option>
+                <option value="60">TRACTOCAMION</option>
+      </select>
+  </div>
+  </div>
+  <div class="form-row">
+ <div class="form-group col-md-4">
+      <label for="id_estado">Funcionalidad</label>
+      <select id="id_estado" class="form-control shadow-sm border-info alert-info">
+        <option value="">Seleccione estado fisico</option>
+                <option value="0131">MUY MAL ESTADO</option>
+                <option value="0221">MAL ESTADO</option>
+                <option value="0311">REGULAR</option>
+                <option value="0401">BUENO</option>
+                <option value="0591">EXCELENTE</option>
+      </select>
+  </div>
+ <div class="form-group col-md-4">
+      <label for="id_Marca">Marca de Vehiculo</label>
+      <select id="id_Marca" class="form-control shadow-sm border-info alert-info">
+        <option value="">Seleccione marca del vehiculo</option>
+                <option value="0132">RENAULT</option>
+                <option value="0222">CHEVROLET</option>
+                <option value="0312">BMW</option>
+                <option value="0402">MERCEDES BENZ</option>
+                <option value="0592">AUDI</option>
+                <option value="0682">CORSA</option>
+                <option value="0772">TOYOTA</option>
+                <option value="0862">KENWORTH</option>
+                <option value="0952">MITSUBISHI</option>
+                <option value="1042">HONDA</option>
+                <option value="1132">HYUNDAI</option>
+                <option value="1222">FERRARI</option>
+                <option value="1312">MAZDA</option>
+      </select>
+  </div>
+  <div class="form-group col-md-4">
+      <label for="Tipo de identificacion">Tipo de Documento</label>
+      <select id="Tipo de identificacion" class="form-control shadow-sm border-info alert-info">
+         <option value="">Seleccione uno</option>
+                <option value="095">CEDULA DE CIUDADANIA</option>
+                <option value="096">CEDULA DE EXTRANJERIA</option>
+                <option value="097">PASAPORTE</option>
+                <option value="098">TARJETA DE IDENTIDAD</option>
+      </select>
+  </div>
+  </div>
+
+
+
+<div class="form-row">
+  <div class="form-group col-md-3">
+    <label for="modelo">Modelo</label>
+    <input type="text" class="form-control shadow-sm border-info alert-info" id="modelo" placeholder="--------" aria-describedby="HelpBlock">
+      <small id="HelpBlock" class="form-text text-muted">
+            Coloque el modelo completo
+      </small>
+  </div>
+  <div class="form-group col-md-2">
+    <label for="año">Año de fabricacion</label>
+      <input type="date" class="form-control p-3 mb-2 shadow-sm border-info alert-info" id="año" placeholder="aaaa" aria-describedby="HelpBlock">
+        <small id="HelpBlock" class="form-text text-muted">
+            Digite solo el año
+      </small>
+    </div>
+    <div class="form-group col-md-7">
+      <label for="detalles">Detalles del vehiculo</label>
+      <input type="destalles" class="form-control p-3 shadow-sm border-info alert-info" id="ccpaswd" placeholder="Parrilas, luces led..." aria-describedby="HelpBlock">
+        <small id="HelpBlock" class="form-text text-muted">
+            Descripcion de accesorios
+      </small>
+    </div>
+  </div>
+
+
+
+<div class="form-row">
+  <div class="form-group col-md-3">
+    <label for="caja">Caja de velocidades</label>
+    <input type="text" class="form-control shadow-sm border-info alert-info" id="caja" placeholder="--------" aria-describedby="HelpBlock">
+      <small id="HelpBlock" class="form-text text-muted">
+            Digite el numero de fabricacion
+      </small>
+  </div>
+  <div class="form-group col-md-3">
+    <label for="motor">Motor de Vehiculo</label>
+      <input type="text" class="form-control p-3 mb-2 shadow-sm border-info alert-info" id="motor" placeholder="---------" aria-describedby="HelpBlock">
+        <small id="HelpBlock" class="form-text text-muted">
+            Digite solo el serial
+      </small>
+    </div>
+    <div class="form-group col-md-2">
+    <label for="fecha de publicacion">Fecha de Registro</label>
+      <input type="date" class="form-control p-3 mb-2 shadow-sm border-info alert-info" id="año" placeholder="Ingrese usuario" aria-describedby="HelpBlock">
+        <small id="HelpBlock" class="form-text text-muted">
+            Ingrese fecha completa
+      </small>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="precio de venta">Precio de Venta</label>
+      <input type="number" class="form-control p-3 shadow-sm border-info alert-info" id="precio de venta" placeholder="---.---,--" aria-describedby="HelpBlock">
+        <small id="HelpBlock" class="form-text text-muted">
+            Establesca Precio
+      </small>
+    </div>
+    <div class="form-group col-md-2">
+    <label for="tipo de moneda">Moneda</label>
+    <input type="text" class="form-control shadow-sm border-info alert-info" id="caja" placeholder="$$$" aria-describedby="HelpBlock">
+      <small id="HelpBlock" class="form-text text-muted">
+            Establesca moneda de cambio
+      </small>
+  </div>
+  </div>
+
+
+
+<div class="form-row">
+  <div class="form-group col-md-6">
+    <label for="Descripcion N°1">Descripcion N°1</label>
+      <input type="text" class="form-control p-3 mb-2 shadow-sm border-info alert-info" id="Descripcion N°1" placeholder="---------" aria-describedby="HelpBlock">
+        <small id="HelpBlock" class="form-text text-muted">
+            Antecedentes
+      </small>
+    </div>
+    <div class="form-group col-md-6">
+    <label for="Descripcion N°2">Descripcion N°2</label>
+      <input type="text" class="form-control p-3 mb-2 shadow-sm border-info alert-info" id="Descripcion N°2" placeholder="--------" aria-describedby="HelpBlock">
+        <small id="HelpBlock" class="form-text text-muted">
+            Multas
+      </small>
+    </div>
+  </div>
+
+
+
+<div class="form-row">
+  <div class="form-group col-md-6">
+    <label for="Descripcion N°3">Descripcion N°3</label>
+      <input type="text" class="form-control p-3 mb-2 shadow-sm border-info alert-info" id="Descripcion N°3" placeholder="---------" aria-describedby="HelpBlock">
+        <small id="HelpBlock" class="form-text text-muted">
+            Historico Vehicular
+      </small>
+    </div>
+    <div class="form-group col-md-6">
+    <label for="Descripcion N°4">Descripcion N°4</label>
+      <input type="text" class="form-control p-3 mb-2 shadow-sm border-info alert-info" id="Descripcion N°4" placeholder="----------" aria-describedby="HelpBlock">
+        <small id="HelpBlock" class="form-text text-muted">
+          Motivo del Registro
+      </small>
+    </div>
+  </div>
+
+
+
+  <div class="form-row">
+  <div class="form-group col-md-6">
+    <label for="Descripcion Destacada">Descripcion Destacada</label>
+      <input type="text" class="form-control p-3 mb-2 shadow-sm border-info alert-info" id="Descripcion Destacada" placeholder="---------" aria-describedby="HelpBlock">
+        <small id="HelpBlock" class="form-text text-muted">
+            Detalles a Resaltar
+      </small>
+    </div>
+    </div>
+
+  <button type="submit" class="btn btn-info">Registrar</button>
+        </div>
+        </div>
+  
+</form>
+    </div>
+  </body>
+</html>

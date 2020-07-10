@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="../imagenes/Anonimous.png" rel="shortcut icon" sizes="196x196">
+    <!-- Bootstrap CSS -->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <title>Users CSS-Bootstrap</title>
+  </head>
+
+  <body style="background-image:url(images/fondoCSS.jpg)">
+    <div class="container font-italic" >
+      <br>
+      <br>
+      <form>
+        <div class="card text-white mb-3" style="max-width: 90rem; background-color: rgba(38,48,63,0.8)">
+        <div class="card-header">Formulario CSS Bootstrap</div>
+        <div class="card-body">
+            <h1 class="card-title text-uppercase" style="color: #eaeaea; text-align: center; font-size: 59px">Users Bootstrap</h1>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+        
+                    <label for="id_usr">ID</label>
+                    <input type="number" class="form-control p-3 mb-2 shadow-sm border-info alert-info" id="id_usr" placeholder="Ingrese ID usuario" aria-describedby="passwordHelpBlock" >
+                    <small id="passwordHelpBlock" class="form-text text-muted">
+                        El ID debe tener máximo 11 caracteres numericos.
+                    </small>
+                </div>
+            </div>
+            
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="id_pais">País</label>
+      <select id="id_pais" class="form-control shadow-sm border-info alert-info">
+        <option >Seleccione un País</option>
+        <option value="013">ARGENTINA</option>
+        <option value="022">BOLIVIA</option>
+        <option value="031">BRASIL</option>
+        <option value="040">CHILE</option>
+        <option value="059">COLOMBIA</option>
+        <option value="068">CANADA</option>
+        <option value="077">ECUADOR</option>
+        <option value="086">ESTADOS UNIDOS</option>
+        <option value="095">MEXICO</option>
+        <option value="104">PARAGUAY</option>
+        <option value="113">PERU</option>
+        <option value="122">URUGUAY</option>
+        <option value="131">VENEZUELA</option>
+      </select>
+    </div> 
+  </div>
+        
+  <div class="form-row">
+  <div class="form-group col-md-6">
+    <label for="nombre">Nombre</label>
+    <input type="text" class="form-control p-3 mb-2 shadow-sm border-info alert-info" id="nombre" placeholder="Ingrese su nombre" aria-describedby="HelpBlock">
+      <small id="HelpBlock" class="form-text text-muted">
+            El nombre debe tener máximo 25 caracteres.
+      </small>
+  </div>
+  <div class="form-group col-md-6">
+    <label for="apellido">Apellidos</label>
+    <input type="text" class="form-control p-3 mb-2 shadow-sm border-info alert-info" id="apellido" placeholder="Ingrese su apellido" aria-describedby="HelpBlock">
+      <small id="HelpBlock" class="form-text text-muted">
+            El apellido debe tener máximo 25 caracteres.
+      </small>
+  </div>
+  </div>
+  <div class="form-group">
+    <label for="direccion">Dirección</label>
+    <input type="text" class="form-control p-3 mb-2 shadow-sm border-info alert-info" id="direccion" placeholder="1234 Main St" aria-describedby="HelpBlock">
+      <small id="HelpBlock" class="form-text text-muted">
+            La dirección debe tener máximo 45 caracteres.
+      </small>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="ccusuario">Usuario</label>
+      <input type="text" class="form-control p-3 mb-2 shadow-sm border-info alert-info" id="ccusuario" placeholder="Ingrese usuario" aria-describedby="HelpBlock">
+        <small id="HelpBlock" class="form-text text-muted">
+            El usuario debe tener máximo 20 caracteres.
+      </small>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="ccpaswd">Password</label>
+      <input type="password" class="form-control p-3 shadow-sm border-info alert-info" id="ccpaswd" placeholder="Ingrese la contraseña" aria-describedby="HelpBlock">
+        <small id="HelpBlock" class="form-text text-muted">
+            Su contraseña debe tener de 8-11 caracteres.
+      </small>
+    </div>
+  </div>
+    <div class="form-row">
+    <div class="form-group col-md-12">
+      <label for="email">Email</label>
+      <input type="email" class="form-control p-3 mb-2 shadow-sm border-info alert-info" id="email" placeholder="Ejemplo@correo.com" aria-describedby="HelpBlock">
+        <small id="HelpBlock" class="form-text text-muted">
+            El email debe tener máximo 120 caracteres, no olvide colocar @.
+      </small>
+    </div>
+    </div>
+    <div class="form-row">
+    <div class="form-group col-md-12">
+      <label for="telefono">Telefono</label>
+      <input type="number" class="form-control p-3 mb-2 shadow-sm border-info alert-info" id="telefono" placeholder="Ingrese numero telefonico" aria-describedby="HelpBlock">
+        <small id="HelpBlock" class="form-text text-muted">
+            El telefono debe tener máximo 20 caracteres.
+      </small>
+    </div>
+    </div>
+  <button type="submit" class="btn btn-info">Registrar</button>
+        </div>
+        </div>
+</form>
+    </div>
+  </body>
+</html>
