@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body style="background-image:url(images/fondoCarr.jpg); background-size: cover">
+    	<div class="row">
+            <form class="col s10 offset-s1" >
+                <div class="card-panel " style="background-color: rgba(0, 0, 0,0.96)">
+                    <div class="col s12 m8 offset-m5 l10 offset-l1">
+                        <div class="card-panel" style="background-color: rgba(40,0,0,0.4)">
+                        <div class="row valign-wrapper">
+                            <div class="col10">
+                                <img src="images/iconmat.png" alt="" class="circle responsive-img" style="height: 150px; width: 160px"> 
+                            </div>
+                            <div class="col s12">
+                                <h1 style="color: #FFF; font-size: 82px">CARR MATERIALIZE</h1>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+      <div class="row">
+        <div class="input-field col s12">
+        <i class="material-icons prefix cyan-text">assignment_ind</i>
+          <input id="id_coche" type="number" class="validate grey-text" data-length="11">
+          <label for="id_coche">ID Vehículo</label>
+            <span class="helper-text cyan-text text-darken-2">El ID debe tener maximo 11 caracteres numericos.</span>
+        </div>
+      </div>
+      
+      <div class="row">
+          <div class="input-field col s1">
+          <i class="material-icons prefix cyan-text" style="position: relative; float: right">add_location</i>
+            </div>
+
+          <div class="input-field col s3">
+            <select id="id_pais" class="browser-default" >
+                <option value="" disabled selected>Seleccione un Pais</option>
+                <option value="013">ARGENTINA</option>
+                <option value="022">BOLIVIA</option>
+                <option value="031">BRASIL</option>
+                <option value="040">CHILE</option>
+                <option value="059">COLOMBIA</option>
+                <option value="068">CANADA</option>
+                <option value="077">ECUADOR</option>
+                <option value="086">ESTADOS UNIDOS</option>
+                <option value="095">MEXICO</option>
+                <option value="104">PARAGUAY</option>
+                <option value="113">PERU</option>
+                <option value="122">URUGUAY</option>
+                <option value="131">VENEZUELA</option>
+            </select>
+          </div>
+
+           <div class="input-field col s1">
+          <i class="material-icons prefix cyan-text" style="position: relative; float: right">whatshot</i>
+            </div>
+
+          <div class="input-field col s3">
+           <select id="id_pais" class="browser-default" >
+                <option value="" disabled selected>Seleccione tipo de Combustible</option>
+                <option value="01">GAS</option>
+                <option value="02">DIESEL</option>
+                <option value="03">GASOLINA</option>
+                <option value="04">ELECTRICIDAD</option>
+            </select>
+          </div>
+           <div class="input-field col s1">
+          <i class="material-icons prefix cyan-text" style="position: relative; float: right">time_to_leave</i>
+            </div>
+
+          <div class="input-field col s3">
+            <select id="id_pais" class="browser-default" >
+                <option value="" disabled selected>Seleccione tipo de Vehiculo</option>
+                <option value="13">AUTOMOVIL</option>
+                <option value="22">CAMION</option>
+                <option value="31">CAMIONETA</option>
+                <option value="40">BUS</option>
+                <option value="59">BUSETA</option>
+                <option value="60">TRACTOCAMION</option>
+            </select>
+          </div>
+      </div>
+
+
+
+<div class="row">
+          <div class="input-field col s1">
+          <i class="material-icons prefix cyan-text" style="position: relative; float: right">report_problem</i>
+            </div>
+
+          <div class="input-field col s3">
+           <select id="id_pais" class="browser-default" >
+                <option value="" disabled selected>Seleccione Estado Fisico</option>
+                <option value="0131">MUY MAL ESTADO</option>
+                <option value="0221">MAL ESTADO</option>
+                <option value="0311">REGULAR</option>
+                <option value="0401">BUENO</option>
+                <option value="0591">EXCELENTE</option>
+            </select>
+          </div>
+
+
+
+           <div class="input-field col s1">
+          <i class="material-icons prefix cyan-text" style="position: relative; float: right">more</i>
+            </div>
+
+          <div class="input-field col s3">
+          <select id="id_pais" class="browser-default" >
+                <option value="" disabled selected>Seleccione Marca del Vehiculo</option>
+                <option value="0132">RENAULT</option>
+                <option value="0222">CHEVROLET</option>
+                <option value="0312">BMW</option>
+                <option value="0402">MERCEDES BENZ</option>
+                <option value="0592">AUDI</option>
+                <option value="0682">CORSA</option>
+                <option value="0772">TOYOTA</option>
+                <option value="0862">KENWORTH</option>
+                <option value="0952">MITSUBISHI</option>
+                <option value="1042">HONDA</option>
+                <option value="1132">HYUNDAI</option>
+                <option value="1222">FERRARI</option>
+                <option value="1312">MAZDA</option>
+            </select>
+          </div>
+
+
+
+           <div class="input-field col s1">
+          <i class="material-icons prefix cyan-text" style="position: relative; float: right">contact_mail</i>
+            </div>
+
+          <div class="input-field col s3">
+          <select id="id_pais" class="browser-default" >
+                <option value="" disabled selected>Seleccione un Tipo de Documento</option>
+                <option value="095">CEDULA DE CIUDADANIA</option>
+                <option value="096">CEDULA DE EXTRANJERIA</option>
+                <option value="097">PASAPORTE</option>
+                <option value="098">TARJETA DE IDENTIDAD</option>
+            </select>
+          </div>
+      </div>
+
+
+      <div class="row">
+        <div class="input-field col s1">
+          <i class="material-icons prefix cyan-text" style="position: relative; float: right">add_location</i>
+            </div>
+               <div class="input-field col s2">
+                 <input id="modelo" type="text" class="validate grey-text" data-length="60">
+                 <label for="modelo">Modelo</label>
+                 <span class=" helper-text cyan-text text-darken-2">Ingrese el modelo del vehiculo.</span>
+               </div>
+
+        <div class="input-field col s1">
+          <i class="material-icons prefix cyan-text" style="position: relative; float: right">today</i>
+            </div>
+
+        <div class="input-field col s2">
+          <input id="año" type="text" class="validate grey-text" data-length="4">
+          <label for="año">Año de Fabricacion</label>
+          <span class="helper-text cyan-text text-darken-2">Ingrese la fecha completa de publicacion.</span>
+        </div>
+
+        <div class="input-field col s1">
+          <i class="material-icons prefix cyan-text" style="position: relative; float: right">create</i>
+            </div>
+          
+
+        <div class="input-field col s5">
+            <div class="row">
+                 <div class="row">
+                   <div class="input-field col s12">
+                     <textarea id="detalle" class="materialize-textarea grey-text"></textarea>
+                        <label for="detalle">Detalle del vehiculo</label>
+                   </div>
+                 </div>
+            </div>  
+        </div>
+      </div>
+      
+
+      <div class="row">
+        <div class="input-field col s1">
+          <i class="material-icons prefix cyan-text" style="position: relative; float: right">sort</i>
+            </div>
+        <div class="input-field col s3">
+          <input id="caja" type="number" class="validate grey-text">
+          <label for="caja">Caja de velocidades</label>
+          <span class=" helper-text cyan-text text-darken-2">Digite las velocidades</span>
+        </div>
+        <div class="input-field col s1">
+          <i class="material-icons prefix cyan-text" style="position: relative; float: right">sort</i>
+        </div>
+
+        <div class="input-field col s3">
+          <input id="motor" type="number" class="validate grey-text" maxlength="2">
+          <label for="motor">Motor de vehiculo</label>
+          <span class="helper-text cyan-text text-darken-2">Digite el serial del motor.</span>
+        </div>
+
+        <div class="input-field col s1">
+          <i class="material-icons prefix cyan-text" style="position: relative; float: right">today</i>
+            </div>
+
+        <div class="input-field col s3">
+          <input id="fechapub" type="date" class="validate grey-text" data-length="10">
+          <label for="fechapub">Fecha de publicación</label>
+          <span class="helper-text cyan-text text-darken-2">Ingrese fecha completa.</span>
+        </div>
+      </div>
+
+
+        <div class="row">
+        <div class="input-field col s1">
+        <i class="material-icons prefix cyan-text" style="position: relative; float: right">local_atm</i>
+            </div>
+        <div class="input-field col s2">
+          <input id="precio" type="number" class="validate grey-text" data-length="6">
+          <label for="precio">Precio de venta</label>
+          <span class=" helper-text cyan-text text-darken-2">Establesca precio</span>
+        </div>
+
+        <div class="input-field col s1">
+          <i class="material-icons prefix cyan-text" style="position: relative; float: right">euro_symbo</i>
+            </div>
+
+        <div class="input-field col s2">
+          <input id="moneda" type="text" class="validate grey-text" data-length="3">
+          <label for="moneda">Moneda</label>
+          <span class="helper-text cyan-text text-darken-2">Establesca moneda de cambio.</span>
+        </div>
+
+        <div class="input-field col s1">
+          <i class="material-icons prefix cyan-text" style="position: relative; float: right">create</i>
+            </div>
+            <div class="row">
+                 <div class="row">
+                   <div class="input-field col s5">
+                     <textarea id="cc_pick01" class="materialize-textarea grey-text validate" data-length="85"></textarea>
+                        <label for="cc_pick01">Descripcion N°1</label>
+                       <span class="helper-text cyan-text text-darken-2">Antecedentes</span>
+                   </div>
+                 </div>
+            </div>       
+      </div>
+
+<div class="row">
+        <div class="input-field col s1">
+          <i class="material-icons prefix cyan-text" style="position: relative; float: right">createn</i>
+            </div>
+    <div class="input-field col s5">
+            <div class="row">
+                 <div class="row">
+                   <div class="input-field col s12">
+                     <textarea id="cc_pick02" class="materialize-textarea grey-text validate" data-length="85"></textarea>
+                        <label for="cc_pick02">Descripcion N°2</label>
+                       <span class="helper-text cyan-text text-darken-2">Multas</span>
+                   </div>
+                 </div>
+            </div>  
+        </div> 
+    
+        <div class="input-field col s1">
+          <i class="material-icons prefix cyan-text" style="position: relative; float: right">create</i>
+            </div>
+    
+        <div class="input-field col s5">
+            <div class="row">
+                 <div class="row">
+                   <div class="input-field col s12">
+                     <textarea id="cc_pick03" class="materialize-textarea grey-text validate" data-length="85"></textarea>
+                        <label for="cc_pick03">Descripcion N°3</label>
+                       <span class="helper-text cyan-text text-darken-2">Historial vehicular</span>
+                   </div>
+                 </div>
+            </div>  
+        </div>
+
+      </div>
+
+<div class="row">
+        <div class="input-field col s1">
+          <i class="material-icons prefix cyan-text" style="position: relative; float: right">create</i>
+        </div>
+        <div class="input-field col s5">
+            <div class="row">
+                 <div class="row">
+                   <div class="input-field col s12">
+                     <textarea id="cc_destac" class="materialize-textarea grey-text validate" data-length="2"></textarea>
+                        <label for="cc_destac">Descripcion destacada</label>
+                       <span class="helper-text cyan-text text-darken-2">Detalles al resaltar</span>
+                   </div>
+                 </div>
+            </div>  
+        </div>
+      </div>
+
+
+          <button class="btn waves-effect waves-light" type="submit" name="action">Registar<i class="material-icons right">send</i>
+  </button>
+        </div>
+    </form>
+  </div>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    </body>
+  </html>
+
+
+
+
+  
