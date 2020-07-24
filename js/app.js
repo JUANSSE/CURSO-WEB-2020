@@ -127,7 +127,7 @@ function enviarFormulario(e) {
 
      // Gif de check que envia el formulario
      const enviado = document.createElement('img');
-     enviado.src = '../imagen/mail.gif';
+     enviado.src = '../Imagenes/mail.gif';
      enviado.style.display = 'block';
 
      // Ocultar Spinner y mostrar gif de enviado
@@ -207,7 +207,7 @@ function validarDireccion(campo) {
           campo.classList.add('error');
           alert('Campo incorrecto, por favor asegúrese de ingresar una direccion de máximo 45 caracteres.\nRecuerde que para validar correctamente este campo su direccion debe empezar con cll, cra, av, anv o trans.');
      }
-}
+}s
 
 function validarUsuario(campo) {
      if(usuario.value.length > 9 && usuario.value.length < 21 
