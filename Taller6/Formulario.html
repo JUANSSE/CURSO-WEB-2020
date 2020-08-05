@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link href="../imagenes/Anonimous.png" rel="shortcut icon" sizes="196x196">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" 
+    integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="../css/estilos2.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Registro de Usuarios</h1>
+        <div class="contenido">
+            <form action="" method="GET" class="formulario" name="formulario">
+                <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+                <input type="text" name="apellido" placeholder="Apellido" id="apellido">              
+                <div class="row">
+                <div class="col-md-4">
+                <input type="date" name="fNac" id="fNac" value="">
+                </div>
+                <div class="col-md-4">
+                <input type="text" name="edad" id="edad" value="">
+                </div>
+                </div>
+                <input type="text" name="correo" placeholder="Correo electróico" id="correo">
+                <input type="text" name="usuario" placeholder="Usuario" id="usuario">
+                <input type="password" name="contraseña" placeholder="Contraseña" id="contraseña">
+                <input type="password" name="vercontraseña" placeholder="Verificar Contraseña" id="vercontraseña">
+                <div onclick="visualizar()">
+                        <label>¿Ha tenido enfermedades?</label><br/>
+                        <input type="radio" name="enfermedades" value="si"> Sí<br>
+                        <input type="radio" name="enfermedades" value="no"> No<br>
+                    </div><br/>
+
+                    <div id="enfermo" style="display:none;" onclick="visualizar()">
+                        <label>¿Han sido contagiosas o con riegos de viralidad?</label><br/>
+                        <input type="radio" id="contY" name="enfermedadesC" value="si"> Sí<br>
+                        <input type="radio" id="contN" name="enfermedadesC" value="no"> No<br>
+                    </div><br/>
+
+                    <div id="contagioso" style="display:none;">
+                        <label>¿Podría escribirnos cuáles?</label>
+                        <textarea rows="4" cols="50">Describa con detallle cada uno de ellas y los sintomas presentados</textarea>
+                    </div><br/>
+                <button type="button" onclick="validarFormulario()" >Enviar</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../css/app2.js"></script>
+</body>
+</html>
